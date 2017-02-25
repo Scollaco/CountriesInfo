@@ -17,6 +17,7 @@
 		BEA47FDF1E62394A0086B52D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FDE1E62394A0086B52D /* Resource.swift */; };
 		BEA47FE21E62402A0086B52D /* CountriesResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FE11E62402A0086B52D /* CountriesResource.swift */; };
 		BEA47FE51E6243150086B52D /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FE41E6243150086B52D /* JSONDecodable.swift */; };
+		BEA47FE81E6245710086B52D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FE71E6245710086B52D /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BEA47FDE1E62394A0086B52D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		BEA47FE11E62402A0086B52D /* CountriesResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesResource.swift; sourceTree = "<group>"; };
 		BEA47FE41E6243150086B52D /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		BEA47FE71E6245710086B52D /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		BEA47FAE1E6238F00086B52D /* CountriesInfo */ = {
 			isa = PBXGroup;
 			children = (
+				BEA47FE61E6245680086B52D /* Models */,
 				BEA47FE31E6243030086B52D /* JSON Decodable */,
 				BEA47FDD1E62393A0086B52D /* Resources */,
 				BEA47FAF1E6238F00086B52D /* AppDelegate.swift */,
@@ -148,6 +151,14 @@
 				BEA47FE41E6243150086B52D /* JSONDecodable.swift */,
 			);
 			name = "JSON Decodable";
+			sourceTree = "<group>";
+		};
+		BEA47FE61E6245680086B52D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEA47FE71E6245710086B52D /* Country.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				BEA47FE51E6243150086B52D /* JSONDecodable.swift in Sources */,
 				BEA47FB21E6238F00086B52D /* ViewController.swift in Sources */,
 				BEA47FE21E62402A0086B52D /* CountriesResource.swift in Sources */,
+				BEA47FE81E6245710086B52D /* Country.swift in Sources */,
 				BEA47FB01E6238F00086B52D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
