@@ -14,6 +14,7 @@
 		BEA47FBA1E6238F00086B52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA47FB81E6238F00086B52D /* LaunchScreen.storyboard */; };
 		BEA47FC51E6238F00086B52D /* CountriesInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FC41E6238F00086B52D /* CountriesInfoTests.swift */; };
 		BEA47FD01E6238F00086B52D /* CountriesInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FCF1E6238F00086B52D /* CountriesInfoUITests.swift */; };
+		BEA47FDF1E62394A0086B52D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FDE1E62394A0086B52D /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BEA47FCB1E6238F00086B52D /* CountriesInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA47FCF1E6238F00086B52D /* CountriesInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesInfoUITests.swift; sourceTree = "<group>"; };
 		BEA47FD11E6238F00086B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA47FDE1E62394A0086B52D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BEA47FAE1E6238F00086B52D /* CountriesInfo */ = {
 			isa = PBXGroup;
 			children = (
+				BEA47FDD1E62393A0086B52D /* Resources */,
 				BEA47FAF1E6238F00086B52D /* AppDelegate.swift */,
 				BEA47FB11E6238F00086B52D /* ViewController.swift */,
 				BEA47FB31E6238F00086B52D /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				BEA47FD11E6238F00086B52D /* Info.plist */,
 			);
 			path = CountriesInfoUITests;
+			sourceTree = "<group>";
+		};
+		BEA47FDD1E62393A0086B52D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEA47FDE1E62394A0086B52D /* Resource.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA47FDF1E62394A0086B52D /* Resource.swift in Sources */,
 				BEA47FB21E6238F00086B52D /* ViewController.swift in Sources */,
 				BEA47FB01E6238F00086B52D /* AppDelegate.swift in Sources */,
 			);
