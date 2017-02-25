@@ -15,6 +15,7 @@
 		BEA47FC51E6238F00086B52D /* CountriesInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FC41E6238F00086B52D /* CountriesInfoTests.swift */; };
 		BEA47FD01E6238F00086B52D /* CountriesInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FCF1E6238F00086B52D /* CountriesInfoUITests.swift */; };
 		BEA47FDF1E62394A0086B52D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FDE1E62394A0086B52D /* Resource.swift */; };
+		BEA47FE21E62402A0086B52D /* CountriesResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA47FE11E62402A0086B52D /* CountriesResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BEA47FCF1E6238F00086B52D /* CountriesInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesInfoUITests.swift; sourceTree = "<group>"; };
 		BEA47FD11E6238F00086B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA47FDE1E62394A0086B52D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		BEA47FE11E62402A0086B52D /* CountriesResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesResource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		BEA47FAE1E6238F00086B52D /* CountriesInfo */ = {
 			isa = PBXGroup;
 			children = (
+				BEA47FE01E623FC10086B52D /* Networking */,
 				BEA47FDD1E62393A0086B52D /* Resources */,
 				BEA47FAF1E6238F00086B52D /* AppDelegate.swift */,
 				BEA47FB11E6238F00086B52D /* ViewController.swift */,
@@ -132,8 +135,16 @@
 			isa = PBXGroup;
 			children = (
 				BEA47FDE1E62394A0086B52D /* Resource.swift */,
+				BEA47FE11E62402A0086B52D /* CountriesResource.swift */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEA47FE01E623FC10086B52D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			files = (
 				BEA47FDF1E62394A0086B52D /* Resource.swift in Sources */,
 				BEA47FB21E6238F00086B52D /* ViewController.swift in Sources */,
+				BEA47FE21E62402A0086B52D /* CountriesResource.swift in Sources */,
 				BEA47FB01E6238F00086B52D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
